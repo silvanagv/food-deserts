@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -4px;
+  font-size: 5.5em;
+  text-align: center;
+}
+
+footer {
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+  padding-right: 2em;
+
+}
+
+header {
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 1.6em;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+  padding-right: 2em;
+
+}
+
+p.definition {
+  max-width: 35em;
+  margin: auto;
+  text-align: justify;
+  font-size: 1.5em;
+}
+
+p {
+  max-width: 50em;
+  margin: auto;
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+@font-face {
+  src:url('https://fonts.googleapis.com/css?family=Open+Sans:800|PT+Sans|Roboto+Condensed:300');
+}
