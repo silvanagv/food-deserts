@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class MainContent extends Component {
+class WhatNow extends Component {
   render() {
     return (
       <div>
@@ -12,4 +12,4 @@ class MainContent extends Component {
   }
 }
 
-export default MainContent;
+export default WhatNow;

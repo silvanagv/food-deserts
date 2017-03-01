@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import MainContent from './components/MainContent';
 import Footer from './components/Footer';
 import Menu from './components/Menu';
 
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div>
         <Menu />
-        <MainContent/>
+        <div>
+          {this.props.children}
+        </div>
         <Footer />
       </div>
     );

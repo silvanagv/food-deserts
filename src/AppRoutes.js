@@ -1,18 +1,19 @@
+
+'use strict';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
-import IndexPage from './components/IndexPage'
+
 import { Route, IndexRoute, Router, browserHistory } from 'react-router';
+import App from './App'
+import IndexPage from './components/IndexPage'
 
 
-ReactDOM.render(
-  (
+
+  ReactDOM.render((
       <Router history={browserHistory}>
         <Route path="/" component={App}>
           <IndexRoute component={IndexPage}/>
         </Route>
       </Router>
-  ),
-  document.getElementById('root')
-);
+  ), document.getElementById('root'))
