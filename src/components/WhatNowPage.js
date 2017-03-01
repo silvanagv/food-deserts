@@ -4,9 +4,8 @@ class NotFoundPage extends Component {
   render() {
     return (
       <div>
-        <h1> Page Not Found </h1>
-        <img className="food-desert" src={require('./../food-desert-bw-sm.jpg')}/>
-        <p className="definition"> Oopsies. </p>
+        <h1> What Now? </h1>
+
       </div>
     );
   }
