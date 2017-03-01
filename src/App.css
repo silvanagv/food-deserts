@@ -78,6 +78,12 @@ p {
   font-size: 1.1em;
 }
 
+.food-desert{
+  display: block;
+  max-width: 75%;
+  margin: auto;
+}
+
 @font-face {
   src:url('https://fonts.googleapis.com/css?family=Open+Sans:800|PT+Sans|Roboto+Condensed:300');
 }
