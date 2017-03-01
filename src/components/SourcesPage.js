@@ -14,6 +14,8 @@ class SourcesPage extends React.Component {
         <li><a href="http://www.pbs.org/newshour/updates/takes-grocery-store-eliminate-food-desert/">Why it takes more than a grocery store to eliminate a ‘food desert’</a>[PBS]</li>
 
         <li><a href="http://www.refinery29.com/2015/05/87956/new-york-health-food-deserts">The One Food Myth We Were Totally Wrong About</a>[Refinery29]</li>
+
+        <li> <a href="https://www.acf.hhs.gov/ocs/programs/community-economic-development/healthy-food-financing">Healthy Food Financing Initiative</a></li>
         </ol>
       </div>
     );
