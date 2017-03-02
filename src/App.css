@@ -30,6 +30,9 @@ h1 {
   text-align: center;
 }
 
+section.footer {
+  font-size: 0.9em;
+}
 /*footer {
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: 3px;

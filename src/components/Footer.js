@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 export default function Footer(){
   return (
     <div>
-        <section>
+        <section className="footer">
           <nav className="cl-effect-7">
             <Link to="contact">Contact</Link>
             <Link to="about">About</Link>
