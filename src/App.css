@@ -146,3 +146,17 @@ nav a:focus {
 	top: 0%;
 	opacity: 1;
 }
+
+@media only screen and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2){
+  h1 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 0.9em;
+    max-width: 90%;
+  }
+
+  nav a {
+    font-size: 0.9em;
+  }
+}
