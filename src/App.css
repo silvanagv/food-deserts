@@ -28,6 +28,8 @@ h1 {
   letter-spacing: -4px;
   font-size: 4.5em;
   text-align: center;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
 section.footer {
@@ -48,7 +50,11 @@ footer ul li {
   padding-right: 2em;
 
 }*/
-
+.fixed-width {
+  max-width: 30em;
+  display: block;
+  margin: auto;
+}
 p.definition {
   max-width: 35em;
   margin: auto;
@@ -61,11 +67,13 @@ p {
   margin: auto;
   text-align: justify;
   font-size: 1.05em;
+  margin-top: 2em;
+
 }
 
 .food-desert{
   display: block;
-  max-width: 75%;
+  max-width: 100%;
   margin: auto;
 }
 
@@ -76,7 +84,7 @@ p {
 nav a {
 	position: relative;
 	display: inline-block;
-	margin: 15px 25px;
+	margin: 15px 25px 0;
 	outline: none;
 	text-decoration: none;
 	text-transform: uppercase;
