@@ -158,5 +158,6 @@ nav a:focus {
 
   nav a {
     font-size: 0.9em;
+    margin: 15px 5px 0;
   }
 }
