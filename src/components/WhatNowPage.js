@@ -7,9 +7,7 @@ class NotFoundPage extends Component {
         <h1> What Now? </h1>
         <div className="fixed-width">
         <img alt="food desert" className="food-desert" src={require('./../lemon-drink-sm.jpg')}/>
-        <p> Since education is the biggest indicator of likelihood of buying healthy food, not presence or absence of grocery stores, perhaps the road to healthier eating for all requires a longer-term approach that starts earlier in life. Instead of opening more grocery stores, perhaps providing cooking classes to children that show how a healthy diet can be tasty, as well as nutritious, would lead to better results.</p>
-        <p>It's a well-established fact that individuals who are obese in childhood tend to be obese in later life, largely due to eating habits being formed early on in life.</p>
-        <p> Additionally, another reason why healthy eating is such a challenge for many working families is a lack of time and/or energy. As such, "magic bullet" solutions such as creating grocery stores may not be enough. </p>
+        <p>If people can’t afford healthier foods, then it would be reasonable to think that just giving them a better store wouldn’t solve their problems. But a study published by researchers at the University of Pennsylvania found that the education of the shoppers was much more predictive than their incomes. Poorer families bought less healthy food than richer ones. But a bigger gap was found between families with and without a college education. Those results suggest that improving people’s diets will require both making food accessible and affordable and also changing people’s perceptions and habits about diet and health.</p>
         </div>
       </div>
     );
