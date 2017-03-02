@@ -15,7 +15,7 @@ class SourcesPage extends React.Component {
 
         <li><a href="http://www.refinery29.com/2015/05/87956/new-york-health-food-deserts">The One Food Myth We Were Totally Wrong About</a>[Refinery29]</li>
 
-        <li> <a href="https://www.acf.hhs.gov/ocs/programs/community-economic-development/healthy-food-financing">Healthy Food Financing Initiative</a></li>
+        <li> <a href="https://www.acf.hhs.gov/ocs/programs/community-economic-development/healthy-food-financing">Healthy Food Financing Initiative</a>[US Dept for Health and Human Services]</li>
         </ol>
       </div>
     );
