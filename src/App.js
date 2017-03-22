@@ -9,9 +9,7 @@ class App extends React.Component {
     return (
       <div>
         <Menu />
-        <div>
           {this.props.children}
-        </div>
         <Footer />
       </div>
     );
