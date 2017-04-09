@@ -7,7 +7,7 @@ export default function Menu(){
        <section>
          <nav className="cl-effect-7">
            <Link to="problem">The Problem</Link>
-           <Link to="solution">The Solution</Link>
+           <Link to="solution">The Proposed Solution</Link>
            <Link to="stumblingblocks">Stumbling Blocks</Link>
            <Link to="whatnow">What Now?</Link>
          </nav>
